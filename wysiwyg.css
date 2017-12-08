@@ -1,0 +1,60 @@
+#search {
+    display: block;
+    margin: 1em auto;
+    font-size: 1.5em;
+}
+
+#actorWrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.actorCard {
+    display: inline-block;
+    max-width: 20vw;
+    height: auto;
+    /* border: .7vw ridge firebrick; */
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 12px black;
+    text-align: justify;
+    border: .4em double firebrick;
+    border-radius: 1em;
+}
+
+.dotted {
+    border: .7vw dotted firebrick;
+}
+
+.actorCard p {
+    padding: 1vw;
+}
+
+.actorCard footer {
+    text-align: right;
+    padding: 1vw;
+}
+
+.actorCard:nth-child(even) {
+    background-color: #F6E481;
+}
+
+.actorCard:nth-child(odd) {
+    background-color: #5687d4;
+}
+
+.actorCard h3 {
+    text-align: center;
+    border-bottom: .3vw double black;
+    padding-bottom: .3vw;
+}
+
+.actorCard img {
+    display: block;
+    max-width: 13vw;
+    height: auto;
+    margin: auto;
+    box-shadow: 0 0 1em snow;
+}
